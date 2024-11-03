@@ -16,6 +16,25 @@ st.set_page_config(page_title="Barista Profile", page_icon="☕", layout="wide")
 st.markdown(
     """
     <style>
+
+
+
+       /* Hide the hamburger menu */
+    #MainMenu {
+        visibility: hidden;
+    }
+
+    /* Optionally hide the entire header */
+    header {
+        visibility: hidden;
+    }
+
+    /* Optionally hide the footer */
+    footer {
+        visibility: hidden;
+    }
+
+    
 .about-me-container {
         display: flex;
         align-items: center;
